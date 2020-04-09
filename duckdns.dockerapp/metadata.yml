@@ -1,0 +1,6 @@
+version: 0.0.1
+name: duckdns
+description: duckdns docker app
+maintainers:
+  - name: krosf
+    email: rodrigosanabria22@gmail.com

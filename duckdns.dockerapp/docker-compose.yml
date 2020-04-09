@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  duckdns:
+    image: linuxserver/duckdns
+    container_name: duckdns
+    environment:
+      - TZ=${duckdns.tz}
+      - SUBDOMAINS=${duckdns.subdomains}
+      - TOKEN=${duckdns.token}
+    restart: unless-stopped
